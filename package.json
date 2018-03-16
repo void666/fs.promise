@@ -1,6 +1,6 @@
 {
   "name": "fs.proms",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Promise wrapper on top of fs module",
   "main": "index.js",
   "scripts": {
