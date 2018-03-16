@@ -28,7 +28,8 @@
     "fs-promised",
     "fs-promise",
     "fs.promise",
-    "fs.promises"
+    "fs.promises",
+    "fs.promisify"
   ],
   "homepage": "https://github.com/void666/fs.promise#readme",
   "devDependencies": {
