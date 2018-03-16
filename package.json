@@ -1,10 +1,11 @@
 {
   "name": "fs.promiser",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "Promise wrapper on top of fs module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/gulp/bin/gulp.js test",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,36 @@
   "bugs": {
     "url": "https://github.com/void666/fs.promise/issues"
   },
-  "homepage": "https://github.com/void666/fs.promise#readme"
+  "keywords": [
+    "fs",
+    "file system",
+    "bluebird",
+    "fs.promiser",
+    "fs-promisified",
+    "fs-promisify",
+    "fs-promise",
+    "fs.promised.",
+    "fs-promised",
+    "fs-promise",
+    "fs.promise",
+    "fs.promises"
+  ],
+  "homepage": "https://github.com/void666/fs.promise#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-subset": "^1.6.0",
+    "coveralls": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-istanbul": "^1.1.2",
+    "gulp-mocha": "^3",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.0.4",
+    "yargs": "^8.0.2",
+    "nodemon": "*"
+  },
+  "engines": {
+    "node": ">=8.10.0"
+  }
 }
