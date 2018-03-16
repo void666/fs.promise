@@ -1,5 +1,5 @@
 {
-  "name": "fs.promisify",
+  "name": "fs.proms",
   "version": "1.0.0",
   "description": "Promise wrapper on top of fs module",
   "main": "index.js",
